@@ -1,0 +1,20 @@
+.Counter {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Counter > div {
+    margin-top: 15px;
+}
+
+.Counter button {
+    margin: 5px;
+    padding: 10px;
+}
+
+.Counter h3 {
+    border: 2px solid #ffffff59;
+    padding: 15px;
+}

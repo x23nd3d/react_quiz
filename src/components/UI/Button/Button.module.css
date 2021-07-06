@@ -1,0 +1,30 @@
+.Button {
+    border: none;
+    padding: 10px 25px;
+    background-color: #fff;
+    cursor: pointer;
+    transition: .3s;
+    text-transform: uppercase;
+    margin-right: 10px;
+}
+
+.Button:hover {
+    opacity: .7
+}
+
+.Button.primary {
+    background-color: #0adbf1;
+    color: #fff;
+}
+
+.Button.success {
+    background-color: #63f10a;
+    color: #000;
+}
+
+.Button:disabled {
+    background-color: #717171;
+    color: #fff;
+    opacity: 1;
+    cursor: default;
+}
